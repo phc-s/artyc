@@ -1,0 +1,144 @@
+[gd_scene format=3 uid="uid://tbuwa17hohx"]
+
+[ext_resource type="Texture2D" uid="uid://bo45lt3c4jmq2" path="res://Game/Asset/Map.png" id="1_iv3md"]
+[ext_resource type="Texture2D" uid="uid://52fu1j7g0ny7" path="res://Game/Asset/Automobile/Commute/Commute (Gray).png" id="2_iv3md"]
+[ext_resource type="Script" uid="uid://conpe2jm5l4q6" path="res://Game/Script/Drive.gd" id="3_iv3md"]
+[ext_resource type="Script" uid="uid://bp7y45yulu32u" path="res://Game/Script/Camera.gd" id="4_37esa"]
+[ext_resource type="Script" uid="uid://cdw5mm8q2ne6v" path="res://Game/Script/Boot.gd" id="5_ghvq8"]
+[ext_resource type="Texture2D" uid="uid://c7p1pmhgjki0w" path="res://Menu/Asset/Background.svg" id="8_gp3ee"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4jxoi"]
+size = Vector2(190.00409, 828.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r5d8u"]
+size = Vector2(59, 23)
+
+[node name="Game" type="Node2D" unique_id=45322456]
+
+[node name="MAP" type="StaticBody2D" parent="." unique_id=258351659]
+position = Vector2(4, 325)
+
+[node name="MAP" type="Sprite2D" parent="MAP" unique_id=632742474]
+position = Vector2(471, 145)
+texture = ExtResource("1_iv3md")
+
+[node name="WEST_SHAPE" type="CollisionShape2D" parent="MAP" unique_id=1378095489]
+position = Vector2(-85, 105.25)
+shape = SubResource("RectangleShape2D_4jxoi")
+
+[node name="SOUTHWEST_SHAPE" type="CollisionShape2D" parent="MAP" unique_id=261011063]
+position = Vector2(-57.00001, 549)
+rotation = -0.40046722
+shape = SubResource("RectangleShape2D_4jxoi")
+
+[node name="SOUTHWEST_SHAPE_2" type="CollisionShape2D" parent="MAP" unique_id=1286919879]
+position = Vector2(263, 723)
+rotation = -1.4052309
+shape = SubResource("RectangleShape2D_4jxoi")
+
+[node name="SOUTH_SHAPE" type="CollisionShape2D" parent="MAP" unique_id=6650336]
+position = Vector2(475, 704)
+rotation = -1.5667729
+shape = SubResource("RectangleShape2D_4jxoi")
+
+[node name="NORTH_SHAPE" type="CollisionShape2D" parent="MAP" unique_id=1362824104]
+position = Vector2(429, -418)
+rotation = -1.5667729
+shape = SubResource("RectangleShape2D_4jxoi")
+
+[node name="SOUTHEAST_SHAPE" type="CollisionShape2D" parent="MAP" unique_id=186436856]
+position = Vector2(829, 629.00006)
+rotation = -2.07552
+shape = SubResource("RectangleShape2D_4jxoi")
+
+[node name="SOUTHEAST_SHAPE_2" type="CollisionShape2D" parent="MAP" unique_id=164345862]
+position = Vector2(1031.9999, 352.99997)
+rotation = -3.015381
+shape = SubResource("RectangleShape2D_4jxoi")
+
+[node name="EAST_SHAPE" type="CollisionShape2D" parent="MAP" unique_id=1790584715]
+position = Vector2(1028.0001, 89)
+rotation = -3.163294
+shape = SubResource("RectangleShape2D_4jxoi")
+
+[node name="NORTHEAST_SHAPE" type="CollisionShape2D" parent="MAP" unique_id=1119585306]
+position = Vector2(948, -208)
+rotation = -3.706793
+shape = SubResource("RectangleShape2D_4jxoi")
+
+[node name="NORTHEAST_SHAPE_2" type="CollisionShape2D" parent="MAP" unique_id=1648583713]
+position = Vector2(796, -305.99994)
+rotation = -4.2195206
+shape = SubResource("RectangleShape2D_4jxoi")
+
+[node name="NORTHWEST_SHAPE" type="CollisionShape2D" parent="MAP" unique_id=491754358]
+position = Vector2(42.99994, -341.99997)
+rotation = -2.3870194
+shape = SubResource("RectangleShape2D_4jxoi")
+
+[node name="PLAYER_VEHICLE2" type="RigidBody2D" parent="." unique_id=278329667]
+position = Vector2(184, 155)
+gravity_scale = 0.0
+script = ExtResource("3_iv3md")
+
+[node name="COMMUTE" type="Sprite2D" parent="PLAYER_VEHICLE2" unique_id=1939067743]
+texture_filter = 2
+position = Vector2(2, 3)
+texture = ExtResource("2_iv3md")
+
+[node name="CAMERA" type="Camera2D" parent="PLAYER_VEHICLE2/COMMUTE" unique_id=548368296]
+position = Vector2(-2, -3)
+zoom = Vector2(2, 2)
+script = ExtResource("4_37esa")
+car_path = NodePath("../..")
+
+[node name="SHAPE" type="CollisionShape2D" parent="PLAYER_VEHICLE2" unique_id=2020403324]
+position = Vector2(1, 2)
+shape = SubResource("RectangleShape2D_r5d8u")
+
+[node name="CONTROL" type="Control" parent="." unique_id=1513963725 node_paths=PackedStringArray("BG")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 135.0
+offset_top = 121.0
+offset_right = 135.0
+offset_bottom = 121.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(5.13223, 4.2563534)
+script = ExtResource("5_ghvq8")
+BG = NodePath("BG_BLACK")
+
+[node name="BG_BLACK" type="TextureRect" parent="CONTROL" unique_id=414294807]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1150.5719
+offset_top = -683.2139
+offset_right = -995.5719
+offset_bottom = -605.2139
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(14.640327, 18.726004)
+texture = ExtResource("8_gp3ee")
+expand_mode = 1
+
+[node name="BG_BLACK2" type="TextureRect" parent="CONTROL" unique_id=146740307]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -17995.326
+offset_top = -13477.079
+offset_right = -17840.326
+offset_bottom = -13399.079
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(14.640327, 18.726004)
+texture = ExtResource("8_gp3ee")
+expand_mode = 1

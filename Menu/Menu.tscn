@@ -1,0 +1,113 @@
+[gd_scene format=3 uid="uid://t1a4euxo80v5"]
+
+[ext_resource type="Script" uid="uid://cw4ane11f4n27" path="res://Menu/Script/Boot.gd" id="1_w32jx"]
+[ext_resource type="FontFile" uid="uid://bkq4h07qldwck" path="res://System/Cairopixel.ttf" id="2_0cyjp"]
+[ext_resource type="Texture2D" uid="uid://mnx0tsmfi3e7" path="res://Menu/Asset/Logotype.svg" id="3_m87qx"]
+[ext_resource type="Texture2D" uid="uid://6hrmve65lo0w" path="res://Menu/Asset/Arctic.png" id="4_3c4i7"]
+[ext_resource type="Texture2D" uid="uid://c7p1pmhgjki0w" path="res://Menu/Asset/Background.svg" id="5_fipr7"]
+
+[node name="Node2D" type="Node2D" unique_id=793215572 node_paths=PackedStringArray("BG")]
+script = ExtResource("1_w32jx")
+BG = NodePath("CANVASLAYER/CONTROL/BG_BLACK")
+
+[node name="CANVASLAYER" type="CanvasLayer" parent="." unique_id=1016943398]
+
+[node name="CONTROL" type="Control" parent="CANVASLAYER" unique_id=607079694]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="LEGAL" type="RichTextLabel" parent="CANVASLAYER/CONTROL" unique_id=1273597564]
+visible = false
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -58.0
+offset_top = -38.0
+offset_right = -7.0
+offset_bottom = -7.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_fonts/normal_font = ExtResource("2_0cyjp")
+text = "[  legal  ]
+[ report ]"
+
+[node name="VER_INFO" type="RichTextLabel" parent="CANVASLAYER/CONTROL" unique_id=686713138]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -67.0
+offset_top = -18.0
+offset_right = 61.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/normal_font = ExtResource("2_0cyjp")
+text = "Build 2.00, 2026.07.28"
+horizontal_alignment = 1
+
+[node name="MENU_OPTIONS" type="RichTextLabel" parent="CANVASLAYER/CONTROL" unique_id=1705121958]
+visible = false
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = -158.0
+offset_right = 229.0
+offset_bottom = -22.0
+grow_vertical = 0
+theme_override_fonts/normal_font = ExtResource("2_0cyjp")
+text = "New Game
+Load Game
+
+Tutorial
+Options
+Credits
+
+Quit"
+
+[node name="LOGO" type="TextureRect" parent="CANVASLAYER/CONTROL" unique_id=1116676791]
+layout_mode = 0
+offset_left = 20.999998
+offset_top = 23.999998
+offset_right = 1230.0
+offset_bottom = 326.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("3_m87qx")
+
+[node name="BACKGROUND" type="TextureRect" parent="CANVASLAYER/CONTROL" unique_id=437289564]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 59.0
+offset_bottom = -19.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_3c4i7")
+expand_mode = 1
+
+[node name="BG_BLACK" type="TextureRect" parent="CANVASLAYER/CONTROL" unique_id=1027960819]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -64.0
+offset_top = -36.0
+offset_right = 91.0
+offset_bottom = 42.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5_fipr7")
+expand_mode = 1
