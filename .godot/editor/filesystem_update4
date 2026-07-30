@@ -1,1 +1,3 @@
+res://Game/Game.tscn
 res://Menu/Menu.tscn
+res://Game/Script/Drive.gd

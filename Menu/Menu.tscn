@@ -51,7 +51,7 @@ offset_right = 61.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_fonts/normal_font = ExtResource("2_0cyjp")
-text = "Build 2.00, 2026.07.28"
+text = "Build 2.01, 2026.07.30"
 horizontal_alignment = 1
 
 [node name="MENU_OPTIONS" type="RichTextLabel" parent="CANVASLAYER/CONTROL" unique_id=1705121958]

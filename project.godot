@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="artyc"
-config/version="2.00"
+config/version="2.01"
 run/main_scene="uid://t1a4euxo80v5"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 boot_splash/bg_color=Color(0, 0, 0, 1)
@@ -21,8 +21,8 @@ config/icon="uid://ddy8gn1i7r20h"
 
 [display]
 
-window/size/viewport_width=400
-window/size/viewport_height=240
+window/size/viewport_width=700
+window/size/viewport_height=350
 window/stretch/aspect="expand"
 mouse_cursor/custom_image="uid://cei0fxachv6t8"
 

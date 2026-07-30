@@ -77,7 +77,7 @@ rotation = -2.3870194
 shape = SubResource("RectangleShape2D_4jxoi")
 
 [node name="PLAYER_VEHICLE2" type="RigidBody2D" parent="." unique_id=278329667]
-position = Vector2(184, 155)
+position = Vector2(336, 84)
 gravity_scale = 0.0
 script = ExtResource("3_iv3md")
 
@@ -112,6 +112,7 @@ script = ExtResource("5_ghvq8")
 BG = NodePath("BG_BLACK")
 
 [node name="BG_BLACK" type="TextureRect" parent="CONTROL" unique_id=414294807]
+visible = false
 texture_filter = 1
 layout_mode = 1
 anchors_preset = 15
@@ -128,6 +129,7 @@ texture = ExtResource("8_gp3ee")
 expand_mode = 1
 
 [node name="BG_BLACK2" type="TextureRect" parent="CONTROL" unique_id=146740307]
+visible = false
 texture_filter = 1
 layout_mode = 1
 anchors_preset = 15

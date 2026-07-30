@@ -2,6 +2,7 @@ extends RigidBody2D
 
 const ACCEL: float = 1.0
 const MAX_SPEED: float = 450.0
+const MAX_REVERSE: float = -50.0
 
 var steering_input: float = 0.0
 const STEER_SENSE: float = 0.005
@@ -19,7 +20,10 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_pressed("up"):
 		current_velocity += ACCEL
 	if Input.is_action_pressed("down"):
-		current_velocity -= ACCEL * 4
+		if (current_velocity <= MAX_REVERSE):
+			current_velocity = MAX_REVERSE
+		else:
+			current_velocity -= ACCEL * 4
 	else:
 		if current_velocity <= 0:
 			current_velocity = 0

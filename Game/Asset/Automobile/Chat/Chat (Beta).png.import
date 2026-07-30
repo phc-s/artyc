@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cux3uy53h0l6m"
-path="res://.godot/imported/Mitsurune Udon (Virtus Blue).png-2036003bec5ec36ebdeb4953a406c01c.ctex"
+uid="uid://ol6lefvh86v0"
+path="res://.godot/imported/Chat (Beta).png-03f63a581acb9458f95f4c302b90c63a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Game/Asset/Automobile/Udon/Mitsurune Udon (Virtus Blue).png"
-dest_files=["res://.godot/imported/Mitsurune Udon (Virtus Blue).png-2036003bec5ec36ebdeb4953a406c01c.ctex"]
+source_file="res://Game/Asset/Automobile/Chat/Chat (Beta).png"
+dest_files=["res://.godot/imported/Chat (Beta).png-03f63a581acb9458f95f4c302b90c63a.ctex"]
 
 [params]
 

@@ -1,85 +1,87 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1785271692
-export_presets.cfg::TextFile::-1::1785268949::0::1::::<><><>0<>0<><>::
-::res://Game/::1785268547
-Game.tscn::PackedScene::39320766936078645::1785268547::0::1::::<><><>0<>0<><>::uid://bo45lt3c4jmq2::::res://Game/Asset/Map.png<>uid://52fu1j7g0ny7::::res://Game/Asset/Automobile/Commute/Commute (Gray).png<>uid://conpe2jm5l4q6::::res://Game/Script/Drive.gd<>uid://bp7y45yulu32u::::res://Game/Script/Camera.gd<>uid://cdw5mm8q2ne6v::::res://Game/Script/Boot.gd<>uid://c7p1pmhgjki0w::::res://Menu/Asset/Background.svg
-::res://Game/Asset/::1784940728
+::res://::1785424627
+export_presets.cfg::TextFile::-1::1785271752::0::1::::<><><>0<>0<><>::
+::res://Game/::1785425263
+Game.tscn::PackedScene::39320766936078645::1785425263::0::1::::<><><>0<>0<><>::uid://bo45lt3c4jmq2::::res://Game/Asset/Map.png<>uid://52fu1j7g0ny7::::res://Game/Asset/Automobile/Commute/Commute (Gray).png<>uid://conpe2jm5l4q6::::res://Game/Script/Drive.gd<>uid://bp7y45yulu32u::::res://Game/Script/Camera.gd<>uid://cdw5mm8q2ne6v::::res://Game/Script/Boot.gd<>uid://c7p1pmhgjki0w::::res://Menu/Asset/Background.svg
+::res://Game/Asset/::1785271692
 Map.png::CompressedTexture2D::3430773644337404867::1784940725::1785271692::1::::<><><>0<>0<>f245eb0aa6ed820e6c9de957551a7ece<>res://.godot/imported/Map.png-7302a6ff74aa7673c0b358c7a5811e17.ctex::
-::res://Game/Asset/Automobile/::1785204431
-::res://Game/Asset/Automobile/Agile/::1785197961
+::res://Game/Asset/Automobile/::1785428316
+::res://Game/Asset/Automobile/Agile/::1785271692
 Agile.png::CompressedTexture2D::5435618007705481504::1785197097::1785271692::1::::<><><>0<>0<>35b8d58817faf152990c83dd79e287ed<>res://.godot/imported/Agile.png-e73fa1ddd08a6065dcb8f7404d8582f8.ctex::
-::res://Game/Asset/Automobile/Aktive/::1785251146
+::res://Game/Asset/Automobile/Aktive/::1785271692
 Aktive (Beta).png::CompressedTexture2D::3494024296336767112::1785201433::1785271692::1::::<><><>0<>0<>6d9eb6016411ff7a3a99d053850d01d7<>res://.godot/imported/Aktive (Beta).png-aea730a58eb87c40691f2052a8622681.ctex::
-::res://Game/Asset/Automobile/Barone/::1785200196
+::res://Game/Asset/Automobile/Barone/::1785271692
 Barone (Beta).png::CompressedTexture2D::3787119807439513062::1785198598::1785271692::1::::<><><>0<>0<>0a34c709d5b59860225e65462736a579<>res://.godot/imported/Barone (Beta).png-ca4e45212490a4caee63b0102f0577cf.ctex::
-::res://Game/Asset/Automobile/Box/::1785198426
+::res://Game/Asset/Automobile/Box/::1785271692
 Box (Black).png::CompressedTexture2D::304778205077521926::1785197317::1785271692::1::::<><><>0<>0<>96693242382112386db85b08f3a82e1e<>res://.godot/imported/Box (Black).png-fc37161e27ab9904b9aa6ba000dd36c4.ctex::
 Box (Gray).png::CompressedTexture2D::3851722843177122646::1785198420::1785271692::1::::<><><>0<>0<>da540271392447367aad07818849c32e<>res://.godot/imported/Box (Gray).png-b2594edadae31c77003d90c36ab661ff.ctex::
 Box (White).png::CompressedTexture2D::5372470362132148823::1785198409::1785271692::1::::<><><>0<>0<>98557bdccf3d9e066c8e5194825caf05<>res://.godot/imported/Box (White).png-f618482c4db3f6b7df2a3fdc0abeeee2.ctex::
-::res://Game/Asset/Automobile/Champagne/::1785251146
+::res://Game/Asset/Automobile/Champagne/::1785271692
 Champagne (Black).png::CompressedTexture2D::760822123175904008::1785201487::1785271692::1::::<><><>0<>0<>85860441dfc90d515d138374e3d88577<>res://.godot/imported/Champagne (Black).png-cdf4232680a72ceaf7ab1e6414f8e1f7.ctex::
 Champagne (Gray).png::CompressedTexture2D::4534867609021532710::1785201473::1785271692::1::::<><><>0<>0<>feaa46249b75eb5809618ea1b3b0b900<>res://.godot/imported/Champagne (Gray).png-70a7540d0ca795722511325b46dd1b45.ctex::
 Champagne (White).png::CompressedTexture2D::3403857080500622190::1785201456::1785271692::1::::<><><>0<>0<>434cb735e24f0cf5162f5642a408b8d1<>res://.godot/imported/Champagne (White).png-db486e11edd416e2973004109743fd8f.ctex::
-::res://Game/Asset/Automobile/Commute/::1785251146
+::res://Game/Asset/Automobile/Chat/::1785428324
+Chat (Beta).png::CompressedTexture2D::1007254055518079671::1785428324::1785428331::1::::<><><>0<>0<>47f3a563893ad5adf2fb8b9a0096d1f6<>res://.godot/imported/Chat (Beta).png-03f63a581acb9458f95f4c302b90c63a.ctex::
+::res://Game/Asset/Automobile/Commute/::1785271692
 Commute (Black).png::CompressedTexture2D::6246689558155043855::1785201404::1785271692::1::::<><><>0<>0<>aaa90bf7b93366672dc4259d5683be2b<>res://.godot/imported/Commute (Black).png-7347264d145c1042b06169eeedf289c9.ctex::
 Commute (Gray).png::CompressedTexture2D::2161744190315809260::1785201395::1785271692::1::::<><><>0<>0<>c5efb2a9fffe1c404fa7627ccfd745b8<>res://.godot/imported/Commute (Gray).png-0d81d6ab7472ee17b359ed607616bb5e.ctex::
 Commute (White).png::CompressedTexture2D::359881314486776791::1785201387::1785271692::1::::<><><>0<>0<>910724f606b44d95e56881145c01a9e9<>res://.godot/imported/Commute (White).png-778a21dfe657d46134bd138564974070.ctex::
-::res://Game/Asset/Automobile/Core/::1785251146
+::res://Game/Asset/Automobile/Core/::1785271692
 Core (Black).png::CompressedTexture2D::1657283829564126055::1785201414::1785271692::1::::<><><>0<>0<>7df145b22b6ce0cc5523eaf7a19bb209<>res://.godot/imported/Core (Black).png-d50844b8fc9fce5d39b53e8da2d9b229.ctex::
 Core (Gray).png::CompressedTexture2D::1966699156609987836::1785202247::1785271692::1::::<><><>0<>0<>fa008dcd980423876e19ff4caf70a0f6<>res://.godot/imported/Core (Gray).png-fd0e5f007ae339ddb0344343269c9732.ctex::
 Core (White).png::CompressedTexture2D::4720052887449721506::1785202268::1785271692::1::::<><><>0<>0<>c5d7fb7b474c4b43e0c6ec53db77097b<>res://.godot/imported/Core (White).png-2a479bd19c8dd7dd1a5080dcfe97411c.ctex::
-::res://Game/Asset/Automobile/Dunamis/::1785251146
+::res://Game/Asset/Automobile/Dunamis/::1785271692
 Dunamis (Beta).png::CompressedTexture2D::3802232961869607666::1785202409::1785271692::1::::<><><>0<>0<>90744f1c18016dfae4a7cb77499ed3c5<>res://.godot/imported/Dunamis (Beta).png-a311ee709cf83721874a632868ce53a6.ctex::
-::res://Game/Asset/Automobile/Eden/::1785251146
+::res://Game/Asset/Automobile/Eden/::1785271692
 Eden (Beta).png::CompressedTexture2D::8972190763169805855::1785202459::1785271692::1::::<><><>0<>0<>b61d3b4ba7996d741fb07ea8c008dc32<>res://.godot/imported/Eden (Beta).png-2ea24c543c5737ed4cfe3b78c737ba84.ctex::
-::res://Game/Asset/Automobile/Empera/::1785251146
+::res://Game/Asset/Automobile/Empera/::1785271692
 Empera (Beta).png::CompressedTexture2D::285716355278886170::1785202488::1785271692::1::::<><><>0<>0<>d6be7cf3b8ebae03977d2901aecfe1f0<>res://.godot/imported/Empera (Beta).png-6c52a73e4c2e52ea4518ab3b64705169.ctex::
-::res://Game/Asset/Automobile/Idea/::1785251146
+::res://Game/Asset/Automobile/Idea/::1785271692
 Idea (Black).png::CompressedTexture2D::503359818515127189::1785203172::1785271692::1::::<><><>0<>0<>0b4c6a8a2fc5de7d9d16a222217d7625<>res://.godot/imported/Idea (Black).png-73ceff56ac7c553e0d90e3bbd910f308.ctex::
 Idea (Gray).png::CompressedTexture2D::1989087974631250966::1785204337::1785271692::1::::<><><>0<>0<>8f01f6e7b7bbf2e0c209477a10b05e13<>res://.godot/imported/Idea (Gray).png-8fe4fdfa32963665788b6e36af495d7b.ctex::
 Idea (White).png::CompressedTexture2D::7073596949533017643::1785204340::1785271692::1::::<><><>0<>0<>bd305b3e32e15bb1cf6b74efb5855a8e<>res://.godot/imported/Idea (White).png-88e212dcaf67352f3ef2e8b6f3c07252.ctex::
-::res://Game/Asset/Automobile/Komfort/::1785251146
+::res://Game/Asset/Automobile/Komfort/::1785271692
 Komfort (Beta).png::CompressedTexture2D::2426221918551725145::1785207630::1785271692::1::::<><><>0<>0<>13a506973759ce35f27d5b31b8c30d43<>res://.godot/imported/Komfort (Beta).png-0c00762eda2675b2fff12dde13897209.ctex::
-::res://Game/Asset/Automobile/Lanchester/::1785251146
+::res://Game/Asset/Automobile/Lanchester/::1785271692
 Lanchester (Beta).png::CompressedTexture2D::1847101770770899299::1785207603::1785271692::1::::<><><>0<>0<>76304641e7880d883020912b7c29f29f<>res://.godot/imported/Lanchester (Beta).png-8577b2285217eb85cbf4089c109766c8.ctex::
-::res://Game/Asset/Automobile/Nectar/::1785251146
+::res://Game/Asset/Automobile/Nectar/::1785271692
 Nectar (Beta).png::CompressedTexture2D::253326145909317820::1785206381::1785271692::1::::<><><>0<>0<>f65438a097eb67c71c2eb290d94fa2a9<>res://.godot/imported/Nectar (Beta).png-5d7032fe1d3fde02abae25b9380df9bc.ctex::
-::res://Game/Asset/Automobile/Pfalz/::1785251146
+::res://Game/Asset/Automobile/Pfalz/::1785271692
 Pfalz (Beta).png::CompressedTexture2D::7846974265018192991::1785207578::1785271692::1::::<><><>0<>0<>e39c009c5f20ead06959cfc53fb78090<>res://.godot/imported/Pfalz (Beta).png-b07571c73d1a561ceb8780f5d2b2b743.ctex::
-::res://Game/Asset/Automobile/Pi/::1785251146
+::res://Game/Asset/Automobile/Pi/::1785271692
 Pi (Black).png::CompressedTexture2D::2073628816318813065::1785206289::1785271692::1::::<><><>0<>0<>c772d056d52fdb96870f4f71f77b48ca<>res://.godot/imported/Pi (Black).png-5de41617f0b80dbf9da5beac2432658f.ctex::
 Pi (Gray).png::CompressedTexture2D::5256245354464330825::1785206308::1785271692::1::::<><><>0<>0<>8e249cd8293c5e96fce0f27150c2cf65<>res://.godot/imported/Pi (Gray).png-e4ab04ccfbec5868c5411365d8d4d575.ctex::
 Pi (White).png::CompressedTexture2D::7785192783165041122::1785206293::1785271692::1::::<><><>0<>0<>d1ffb127c2bd4aed0a3dd0226d8c6742<>res://.godot/imported/Pi (White).png-13b6967979a3bc01664dda56e4cd68de.ctex::
-::res://Game/Asset/Automobile/Picher/::1785251146
+::res://Game/Asset/Automobile/Picher/::1785271692
 Picher (Beta).png::CompressedTexture2D::4522186774407461848::1785206325::1785271692::1::::<><><>0<>0<>c2b556bdc305232765cdecfad567ae15<>res://.godot/imported/Picher (Beta).png-26e4b15b430a0428c3d4181bf88a5ef1.ctex::
-::res://Game/Asset/Automobile/Profast/::1785251146
+::res://Game/Asset/Automobile/Profast/::1785271692
 Profast (Black).png::CompressedTexture2D::6644614529759689615::1785020910::1785271692::1::::<><><>0<>0<>bd9cb2e0f629a539e18ca3d9eddd0df3<>res://.godot/imported/Profast (Black).png-84cc79e0aa5c5ddb517ff87a4912fea9.ctex::
 Profast (Gray).png::CompressedTexture2D::2788805010874137440::1785206923::1785271692::1::::<><><>0<>0<>2b1541f171730d6b7527e80bd3bf7b5b<>res://.godot/imported/Profast (Gray).png-2ebb88510fd3e3ef7e0d116b94987adb.ctex::
 Profast (White).png::CompressedTexture2D::3265384876601292237::1785206955::1785271692::1::::<><><>0<>0<>aa4648861625bd11ecc1b73d8c238652<>res://.godot/imported/Profast (White).png-f2e39b6e7a933bac73a9f67233418169.ctex::
-::res://Game/Asset/Automobile/Ryzer/::1785251146
+::res://Game/Asset/Automobile/Ryzer/::1785271692
 Ryzer (Beta).png::CompressedTexture2D::5550580151246508159::1785207186::1785271692::1::::<><><>0<>0<>5e53a5ac6d1f1fe0af98e23b21f1c26c<>res://.godot/imported/Ryzer (Beta).png-881aba49c06eaa04e6fc5db314923b59.ctex::
-::res://Game/Asset/Automobile/Superavit/::1785251146
+::res://Game/Asset/Automobile/Superavit/::1785271692
 Superavit (Beta).png::CompressedTexture2D::1093765290027862820::1785207208::1785271692::1::::<><><>0<>0<>ce7e3ddcb49ac4a52356f7050cef1dcb<>res://.godot/imported/Superavit (Beta).png-f4d4e2485ae75d6a927e3803644517bf.ctex::
-::res://Game/Asset/Automobile/Suscinct/::1785251146
+::res://Game/Asset/Automobile/Suscinct/::1785271692
 Suscinct (Beta).png::CompressedTexture2D::1560982239952748372::1785208075::1785271692::1::::<><><>0<>0<>01be0d5444dffb633b9e536eea21be7b<>res://.godot/imported/Suscinct (Beta).png-a56e0d90adfb201a05124d49b3ed4779.ctex::
-::res://Game/Asset/Automobile/Udon/::1785251146
-Mitsurune Udon (Virtus Blue).png::CompressedTexture2D::6225836028352862094::1784946329::1785271692::1::::<><><>0<>0<>0efe534d545e373e628f973cb32e7108<>res://.godot/imported/Mitsurune Udon (Virtus Blue).png-2036003bec5ec36ebdeb4953a406c01c.ctex::
-::res://Game/Asset/Player/::1785193189
+::res://Game/Asset/Automobile/Udon/::1785424627
+Udon (Beta).png::CompressedTexture2D::6225836028352862094::1784946329::1785424627::1::::<><><>0<>0<>29eb1c1480901ee7a640a583202860eb<>res://.godot/imported/Udon (Beta).png-3387c2e432ec5bb8ef3e13a6e723e489.ctex::
+::res://Game/Asset/Player/::1785271692
 Carl.png::CompressedTexture2D::7796790113099130767::1785193143::1785271692::1::::<><><>0<>0<>aaf9451e7f1bf5e6583f38e5744f0e3d<>res://.godot/imported/Carl.png-6196cb96afa406e984ca560dc9433abd.ctex::
 Suzan.png::CompressedTexture2D::5331655191314585631::1785193148::1785271692::1::::<><><>0<>0<>7ce0e62ba82435e896d76b33ccc2e0fd<>res://.godot/imported/Suzan.png-f4b71127c5f459605f13c189522c4be0.ctex::
-::res://Game/Script/::1785268149
+::res://Game/Script/::1785425263
 Boot.gd::GDScript::5030667830221778971::1785257009::0::1::::<>Control<><>0<>0<><>::
 Camera.gd::GDScript::3506824035943174634::1785268149::0::1::::<>Camera2D<><>0<>0<><>::
-Drive.gd::GDScript::5783241419808024363::1785264527::0::1::::<>RigidBody2D<><>0<>0<><>::
-::res://Menu/::1785268941
-Menu.tscn::PackedScene::1387313880805950484::1785268941::0::1::::<><><>0<>0<><>::uid://cw4ane11f4n27::::res://Menu/Script/Boot.gd<>uid://bkq4h07qldwck::::res://System/Cairopixel.ttf<>uid://mnx0tsmfi3e7::::res://Menu/Asset/Logotype.svg<>uid://6hrmve65lo0w::::res://Menu/Asset/Arctic.png<>uid://c7p1pmhgjki0w::::res://Menu/Asset/Background.svg
-::res://Menu/Asset/::1785259292
+Drive.gd::GDScript::5783241419808024363::1785425263::0::1::::<>RigidBody2D<><>0<>0<><>::
+::res://Menu/::1785424829
+Menu.tscn::PackedScene::1387313880805950484::1785424829::0::1::::<><><>0<>0<><>::uid://cw4ane11f4n27::::res://Menu/Script/Boot.gd<>uid://bkq4h07qldwck::::res://System/Cairopixel.ttf<>uid://mnx0tsmfi3e7::::res://Menu/Asset/Logotype.svg<>uid://6hrmve65lo0w::::res://Menu/Asset/Arctic.png<>uid://c7p1pmhgjki0w::::res://Menu/Asset/Background.svg
+::res://Menu/Asset/::1785271692
 Arctic.png::CompressedTexture2D::2191359526079919288::1784835902::1785271692::1::::<><><>0<>0<>8b7f740c13c270d7a42ae9bda18d6825<>res://.godot/imported/Arctic.png-81d162bbdf1181cf3adcea6eb6e26227.ctex::
 Background.svg::CompressedTexture2D::7051456100213511912::1783974236::1785271692::1::::<><><>0<>0<>800cc7791817c9aa1f63990930aa123d<>res://.godot/imported/Background.svg-72073833ef264dbef66302597ea06730.ctex::
 Logotype.svg::CompressedTexture2D::870545196442802728::1783973556::1785271692::1::::<><><>0<>0<>d805a10820d51e83fdb06f324e325d44<>res://.godot/imported/Logotype.svg-079865b46c125c4cef6b162a3d7194ec.ctex::
 ::res://Menu/Script/::1785259303
 Boot.gd::GDScript::6376886349058885602::1784997537::0::1::::<>Node2D<><>0<>0<><>::
-::res://System/::1784997458
+::res://System/::1785271692
 Cairopixel.ttf::FontFile::3123113820745247854::1765579732::1785271692::1::::<><><>0<>0<>63c6884f453f00694063ff4d2a042488<>res://.godot/imported/Cairopixel.ttf-cee63586f0e4c17c8d1660113e4a2df5.fontdata::
 Cursor.png::CompressedTexture2D::5071639825897636347::1784997457::1785271692::1::::<><><>0<>0<>5bd8f23cd747b1d42695fc9df159fa56<>res://.godot/imported/Cursor.png-b1ea921a0054a02bf6fae365e9ef47a2.ctex::
 Icon.svg::CompressedTexture2D::7421388746990970701::1784931678::1785271692::1::::<><><>0<>0<>2d7f3eae85be799ffe12d060374088a7<>res://.godot/imported/Icon.svg-9c8af187ff4b2aadd6cdc8bbb3adfc50.ctex::
