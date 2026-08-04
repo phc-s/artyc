@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cjpb3mutdktsq"
-path="res://.godot/imported/Agile.png-e73fa1ddd08a6065dcb8f7404d8582f8.ctex"
+uid="uid://dibyl1lg0mt3f"
+path="res://.godot/imported/Vitesse.png-565dffe50c021300cbc4d76bd5ba2034.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Game/Asset/Automobile/Agile/Agile.png"
-dest_files=["res://.godot/imported/Agile.png-e73fa1ddd08a6065dcb8f7404d8582f8.ctex"]
+source_file="res://Game/Asset/Automobile/Vitesse/Vitesse.png"
+dest_files=["res://.godot/imported/Vitesse.png-565dffe50c021300cbc4d76bd5ba2034.ctex"]
 
 [params]
 
