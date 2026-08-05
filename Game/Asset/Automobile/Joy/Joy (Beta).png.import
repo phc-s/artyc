@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://brsf46yg28wt"
-path="res://.godot/imported/Braunsch Komfort ArtS (Bege).png-e72e8c6a135cdd0242086dd2aa4d3d97.ctex"
+uid="uid://b0iqucg1cegwk"
+path="res://.godot/imported/Joy (Beta).png-00b49d122ca3e0cf8a3018f65291587d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Game/Asset/Automobile/Braunsch/Braunsch Komfort/Braunsch Komfort ArtS (Bege).png"
-dest_files=["res://.godot/imported/Braunsch Komfort ArtS (Bege).png-e72e8c6a135cdd0242086dd2aa4d3d97.ctex"]
+source_file="res://Game/Asset/Automobile/Joy/Joy (Beta).png"
+dest_files=["res://.godot/imported/Joy (Beta).png-00b49d122ca3e0cf8a3018f65291587d.ctex"]
 
 [params]
 

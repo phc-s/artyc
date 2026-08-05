@@ -51,7 +51,7 @@ offset_right = 61.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_fonts/normal_font = ExtResource("2_0cyjp")
-text = "Build 2.01, 2026.07.30"
+text = "Build 2.02, 2026.08.08"
 horizontal_alignment = 1
 
 [node name="MENU_OPTIONS" type="RichTextLabel" parent="CANVASLAYER/CONTROL" unique_id=1705121958]
@@ -98,6 +98,7 @@ texture = ExtResource("4_3c4i7")
 expand_mode = 1
 
 [node name="BG_BLACK" type="TextureRect" parent="CANVASLAYER/CONTROL" unique_id=1027960819]
+visible = false
 texture_filter = 1
 layout_mode = 1
 anchors_preset = 15

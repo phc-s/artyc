@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://p2faecof0bt1"
-path="res://.godot/imported/Braunsch Komfort (Bege).png-b9bc02473294885c49bc77e47595118a.ctex"
+uid="uid://dt6hmn64lvbmr"
+path="res://.godot/imported/Instinct (Beta).png-e7a037cbca338e306d4f2894648e6aef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Game/Asset/Automobile/Braunsch/Braunsch Komfort/Braunsch Komfort (Bege).png"
-dest_files=["res://.godot/imported/Braunsch Komfort (Bege).png-b9bc02473294885c49bc77e47595118a.ctex"]
+source_file="res://Game/Asset/Automobile/Instinct/Instinct (Beta).png"
+dest_files=["res://.godot/imported/Instinct (Beta).png-e7a037cbca338e306d4f2894648e6aef.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dibyl1lg0mt3f"
-path="res://.godot/imported/Vitesse.png-565dffe50c021300cbc4d76bd5ba2034.ctex"
+uid="uid://csaauq5pwd7rx"
+path="res://.godot/imported/Pennsylvanian (Beta).png-7653d5224867221fd83b0dd7cef21371.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Game/Asset/Automobile/Vitesse/Vitesse.png"
-dest_files=["res://.godot/imported/Vitesse.png-565dffe50c021300cbc4d76bd5ba2034.ctex"]
+source_file="res://Game/Asset/Automobile/Pennsylvanian/Pennsylvanian (Beta).png"
+dest_files=["res://.godot/imported/Pennsylvanian (Beta).png-7653d5224867221fd83b0dd7cef21371.ctex"]
 
 [params]
 
