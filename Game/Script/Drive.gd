@@ -1,5 +1,7 @@
 extends RigidBody2D
 
+@export var speed_label: RichTextLabel
+
 const ACCEL: float = 1.0
 const MAX_SPEED: float = 450.0
 const MAX_REVERSE: float = -50.0
@@ -51,3 +53,5 @@ func _physics_process(delta: float) -> void:
 	drift_velocity = drift_velocity.lerp(target_velocity, GRIP)
 
 	linear_velocity = drift_velocity
+	if speed_label:
+		speed_label.text = str(int(abs(current_velocity / 5)))
