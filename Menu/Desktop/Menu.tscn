@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://t1a4euxo80v5"]
 
-[ext_resource type="Script" uid="uid://cw4ane11f4n27" path="res://Menu/Script/Boot.gd" id="1_w32jx"]
-[ext_resource type="FontFile" uid="uid://bkq4h07qldwck" path="res://System/Cairopixel.ttf" id="2_0cyjp"]
-[ext_resource type="Texture2D" uid="uid://mnx0tsmfi3e7" path="res://Menu/Asset/Logotype.svg" id="3_m87qx"]
-[ext_resource type="Texture2D" uid="uid://6hrmve65lo0w" path="res://Menu/Asset/Arctic.png" id="4_3c4i7"]
-[ext_resource type="Texture2D" uid="uid://c7p1pmhgjki0w" path="res://Menu/Asset/Background.svg" id="5_fipr7"]
+[ext_resource type="Script" uid="uid://cw4ane11f4n27" path="res://Menu/Script/Boot.gd" id="1_ood0v"]
+[ext_resource type="FontFile" uid="uid://bkq4h07qldwck" path="res://System/Cairopixel.ttf" id="2_2fine"]
+[ext_resource type="Texture2D" uid="uid://mnx0tsmfi3e7" path="res://Menu/Asset/Logotype.svg" id="3_nx2qw"]
+[ext_resource type="Texture2D" uid="uid://6hrmve65lo0w" path="res://Menu/Asset/Arctic.png" id="4_u4u8j"]
+[ext_resource type="Texture2D" uid="uid://c7p1pmhgjki0w" path="res://Menu/Asset/Background.svg" id="5_dhfb5"]
 
-[node name="Node2D" type="Node2D" unique_id=793215572 node_paths=PackedStringArray("BG")]
-script = ExtResource("1_w32jx")
+[node name="Menu" type="Node2D" unique_id=793215572 node_paths=PackedStringArray("BG")]
+script = ExtResource("1_ood0v")
 BG = NodePath("CANVASLAYER/CONTROL/BG_BLACK")
 
 [node name="CANVASLAYER" type="CanvasLayer" parent="." unique_id=1016943398]
@@ -34,7 +34,7 @@ offset_right = -7.0
 offset_bottom = -7.0
 grow_horizontal = 0
 grow_vertical = 0
-theme_override_fonts/normal_font = ExtResource("2_0cyjp")
+theme_override_fonts/normal_font = ExtResource("2_2fine")
 text = "[  legal  ]
 [ report ]"
 
@@ -50,7 +50,7 @@ offset_top = -18.0
 offset_right = 61.0
 grow_horizontal = 2
 grow_vertical = 0
-theme_override_fonts/normal_font = ExtResource("2_0cyjp")
+theme_override_fonts/normal_font = ExtResource("2_2fine")
 text = "Build 2.02, 2026.08.05"
 horizontal_alignment = 1
 
@@ -65,7 +65,7 @@ offset_top = -158.0
 offset_right = 229.0
 offset_bottom = -22.0
 grow_vertical = 0
-theme_override_fonts/normal_font = ExtResource("2_0cyjp")
+theme_override_fonts/normal_font = ExtResource("2_2fine")
 text = "New Game
 Load Game
 
@@ -82,7 +82,7 @@ offset_top = 23.999998
 offset_right = 1230.0
 offset_bottom = 326.0
 scale = Vector2(0.1, 0.1)
-texture = ExtResource("3_m87qx")
+texture = ExtResource("3_nx2qw")
 
 [node name="BACKGROUND" type="TextureRect" parent="CANVASLAYER/CONTROL" unique_id=437289564]
 texture_filter = 1
@@ -94,7 +94,7 @@ offset_left = 59.0
 offset_bottom = -19.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("4_3c4i7")
+texture = ExtResource("4_u4u8j")
 expand_mode = 1
 
 [node name="BG_BLACK" type="TextureRect" parent="CANVASLAYER/CONTROL" unique_id=1027960819]
@@ -109,5 +109,5 @@ offset_right = 91.0
 offset_bottom = 42.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("5_fipr7")
+texture = ExtResource("5_dhfb5")
 expand_mode = 1
